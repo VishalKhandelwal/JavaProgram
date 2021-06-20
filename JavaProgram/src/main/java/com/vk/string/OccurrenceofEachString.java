@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class CharacterofEachString {
+public class OccurrenceofEachString {
 //Count the Occurrences of Each Character in String
 	
 	public static void main(String[] args) {

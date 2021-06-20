@@ -12,7 +12,7 @@ public class FactorialExample {
 //		fact=factorialUsingRecursion(number);
 //		System.out.println("Factorial of "+number+" is: "+fact);
 		
-		System.out.println(factorialUsingStreams(0));
+		System.out.println(factorialUsingStreams(5));
 	}
 
 	//simple for loop
