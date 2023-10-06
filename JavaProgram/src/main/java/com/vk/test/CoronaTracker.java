@@ -27,7 +27,7 @@ public class CoronaTracker {
 		 List<LocationStats> newStats = new ArrayList<>();
 		 int count =1;
 		StringReader csvBodyReader = new StringReader(getUrlContents(VIRUS_DATA_URL));
-       // System.out.println(csvBodyReader);
+        System.out.println(csvBodyReader);
         Iterable<CSVRecord> records = CSVFormat.DEFAULT.withFirstRecordAsHeader().parse(csvBodyReader);
         for (CSVRecord record : records) {
             LocationStats locationStat = new LocationStats();
