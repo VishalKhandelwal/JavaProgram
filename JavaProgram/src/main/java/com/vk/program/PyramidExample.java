@@ -3,8 +3,8 @@ package com.vk.program;
 public class PyramidExample {
 
 	public static void main(String[] args) {
-		//method1();
-		//method2();
+		method1();
+		method2();
 		method3();
 	}
 	

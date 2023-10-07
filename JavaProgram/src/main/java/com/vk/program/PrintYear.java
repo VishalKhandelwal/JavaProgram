@@ -1,6 +1,7 @@
 package com.vk.program;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Year;
 import java.time.format.DateTimeFormatter;
@@ -26,5 +27,8 @@ public class PrintYear {
 		DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyy");  
 		String year3 = ldt.format(format);
 		System.out.println(year3);
+		
+		LocalDate localDate = LocalDate.now();
+		System.out.println(localDate.getYear());
 	}
 }
